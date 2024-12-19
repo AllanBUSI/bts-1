@@ -1,0 +1,1 @@
+<?php echo $_POST['number']*$_POST['number2'];
