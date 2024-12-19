@@ -2,15 +2,16 @@
 
 class Form {
     
-    public function Input($nom, $type, $class, $placeholder) {
-        echo "
+    public function Input($nom, $type, $class, $placeholder, $valeur) {
+        echo '
             <input 
-                name=".$nom."
-                class=".$class."
-                type=".$type."
-                placeholder=".$placeholder."
+                name="'.$nom.'"
+                class="'.$class.'"
+                type="'.$type.'"
+                value="'.$valeur.'"
+                placeholder="'.$placeholder.'"
             />
-        ";
+        ';
     }
 }
 

@@ -2,7 +2,7 @@
 
 class Carrousel {
 
-    private function Image($array, $text) {
+    private function Image($array) {
         $html = '';
         foreach ($array as $key => $a) {
             if ($key == 0) {
